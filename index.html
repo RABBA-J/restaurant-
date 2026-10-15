@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RABBAJ food : garba, alloco, foutou et placali à Yamoussoukro, Bouaké et Dianra. Un resto de luxe sans luxe.">
+    <title>RABBAJ food | Un resto de luxe sans luxe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip" href="contenu">Aller au contenu</a>
+
+    <nav id="nav" class="nav" aria-label="Navigation principale">
+        <a class="logo" href="accueil"><span>R</span>ABBAJ food</a>
+        <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="menu"
+            aria-label="Ouvrir le menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul id="menu">
+            <li><a href="accueil">Accueil</a></li>
+            <li><a href="apropos">À propos</a></li>
+            <li><a href="recettes">Recettes</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a class="bu btn-outline" href="contact">S'inscrire</a></li>
+        </ul>
+    </nav>
+
+    <main id="contenu">
+        <header id="accueil" class="hero">
+            <div class="hero-text">
+                <h1>Mangez à votre faim, un resto de luxe sans luxe</h1>
+                <p class="description">
+                    Garba, alloco, foutou, placali : les plats que vous aimez, préparés chaque jour
+                    et servis à Yamoussoukro, Bouaké et Dianra.
+                </p>
+                <div class="actions">
+                    <a class="btn btn-primary" href="recettes">Voir les recettes</a>
+                    <a class="btn btn-outline" href="locaux">Où nous trouver</a>
+                </div>
+            </div>
+            <img class="hero-img" src="image/ZEGUEN.png" alt="Plat servi chez RABBAJ food">
+        </header>
+
+        <section id="apropos" class="about">
+            <img src="image/quels-sont-les-plats-preferes-des-parisiens-resto.jpg" alt="Assiette de bœuf préparée par nos cuisiniers">
+            <div class="about-text">
+                <h2>Que faisons-nous de spécial dans nos restaurants ?</h2>
+                <p class="description">
+                    Nous cuisinons les plats ivoiriens que vous connaissez avec des produits frais,
+                    des portions généreuses et un service soigné, à un prix juste.
+                </p>
+                <p class="description">
+                    Lisez le menu, choisissez votre plat, et c'est servi.
+                </p>
+                <a class="btn btn-outline" href="recettes">Découvrir le menu</a>
+            </div>
+        </section>
+
+        <section id="recettes" class="recipes">
+            <h2>Nos recettes les plus populaires</h2>
+            <div class="cards">
+                <article class="card">
+                    <img src="image/ZEGUEN.png" alt="Garba" loading="lazy">
+                    <div class="card-body">
+                        <h3>Garba</h3>
+                        <div class="rating" role="img" aria-label="Note : 5 sur 5">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="price">8 500 FCFA</p>
+                        <a class="btn btn-outline" href="#contact">Commander</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="images.jpeg" alt="Alloco" loading="lazy">
+                    <div class="card-body">
+                        <h3>Alloco</h3>
+                        <div class="rating" role="img" aria-label="Note : 4 sur 5">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        </div>
+                        <p class="price">8 000 FCFA</p>
+                        <a class="btn btn-outline" href="contact">Commander</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="1770900772917-recipe-72991-hd.jpeg" alt="Foutou" loading="lazy">
+                    <div class="card-body">
+                        <h3>Foutou</h3>
+                        <div class="rating" role="img" aria-label="Note : 5 sur 5">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="price">7 500 FCFA</p>
+                        <a class="btn btn-outline" href="#contact">Commander</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="images (1).jpeg" alt="Placali" loading="lazy">
+                    <div class="card-body">
+                        <h3>Placali</h3>
+                        <div class="rating" role="img" aria-label="Note : 4 sur 5">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                        </div>
+                        <p class="price">7 000 FCFA</p>
+                        <a class="btn btn-outline" href="contact">Commander</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Nos services</h2>
+            <div class="service-list">
+                <div class="service">
+                    <i class="fa-solid fa-store" aria-hidden="true"></i>
+                    <h3>Boutique</h3>
+                    <p class="description">Retrouvez nos plats et nos produits directement en restaurant.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-motorcycle" aria-hidden="true"></i>
+                    <h3>Livraison</h3>
+                    <p class="description">Commandez, nous vous livrons votre repas chaud.</p>
+                </div>
+                <div class="service">
+                    <i class="fa-solid fa-house" aria-hidden="true"></i>
+                    <h3>Location</h3>
+                    <p class="description">Informez-vous sur nos offres de location pour vos événements.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="newsletter">
+            <h2>Inscrivez-vous à notre newsletter</h2>
+            <p class="description">Recevez nos nouveaux plats et nos offres directement dans votre boîte mail.</p>
+            <form id="form" novalidate>
+                <label for="email">Votre adresse e-mail</label>
+                <div class="field">
+                    <input id="email" name="email" type="email" placeholder="nom@exemple.com" autocomplete="email" required>
+                    <button class="btn btn-primary" type="submit">S'abonner</button>
+                </div>
+                <p id="form-msg" class="form-msg" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="column important">
+            <h3>Merci à vous !</h3>
+            <p>&copy; <span id="year">2026</span> RABBAJ food. Tous droits réservés.</p>
+        </div>
+        <div class="column">
+            <h3>Nos services</h3>
+            <p><a href="services">Boutique</a></p>
+            <p><a href="services">Livraison</a></p>
+            <p><a href="services">Location</a></p>
+        </div>
+        <div class="column">
+            <h3>Recrutement</h3>
+            <p><a href="mailto:recrutement@rabbaj.fr">recrutement@rabbaj.fr</a></p>
+            <p>Postuler pour un emploi</p>
+            <p>Jobs pour étudiants</p>
+        </div>
+        <div class="column" id="locaux">
+            <h3>Nos locaux</h3>
+            <p>Yamoussoukro</p>
+            <p>Bouaké</p>
+            <p>Dianra</p>
+        </div>
+    </footer>
+
+    <script>
+        const nav = document.getElementById('nav');
+        const burger = document.getElementById('burger');
+
+        function setMenu(open) {
+            nav.classList.toggle('responsive', open);
+            burger.setAttribute('aria-expanded', open);
+            burger.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+            burger.firstElementChild.className = open ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+        }
+
+        burger.addEventListener('click', () => setMenu(!nav.classList.contains('responsive')));
+        document.querySelectorAll('menu a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+
+        document.getElementById('form').addEventListener('submit', e => {
+            e.preventDefault();
+            const input = document.getElementById('email');
+            const msg = document.getElementById('form-msg');
+            if (!input.value || !input.checkValidity()) {
+                msg.textContent = 'Saisissez une adresse e-mail valide, par exemple nom@exemple.com.';
+                msg.className = 'form-msg error';
+                input.focus();
+                return;
+            }
+            msg.textContent = 'Merci ! Vous êtes inscrit à la newsletter.';
+            msg.className = 'form-msg ok';
+            e.target.reset();
+        });
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
